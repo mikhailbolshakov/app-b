@@ -1,10 +1,9 @@
 package impl
 
 import (
-	"github.com/mikhailbolshakov/appA-proto"
+	"fmt"
 )
 
 func Print() {
-	v := &AppAProto{}
-	v.Print()
+	fmt.Println("")
 }
